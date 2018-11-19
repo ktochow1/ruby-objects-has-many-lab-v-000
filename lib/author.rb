@@ -24,9 +24,9 @@ class Author
     
 
     
-  # def self.post_count 
-  #   @post_counter
-  # end
+  def self.post_count 
+    @post_counter
+  end
 
 
 end 
