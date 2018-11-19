@@ -14,7 +14,7 @@ class Author
   def add_post(a_post)
     @posts.push(a_post)
     a_post.author = self
-       @post_counter += 1
+    @post_counter += 1
   end
   
   def add_post_by_title(name)
