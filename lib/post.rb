@@ -3,17 +3,17 @@ require 'pry'
 class Post 
   attr_accessor :author, :title
   
-  @@all_posts = []
+  @@all = []
   
   def initialize(title)
     @title = title
-    @@all_posts = []
-    @@all_posts << title
-    @@all_posts
+    @@all = []
+    @@all << title
+    @@all
   end 
 
   def self.all
-    @@all_posts
+    @@all
   end
 
 end 
