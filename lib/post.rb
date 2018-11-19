@@ -23,6 +23,7 @@ class Post
   
   def author_name
     if author.name == true
+      author.name
     else
       nil
     end
