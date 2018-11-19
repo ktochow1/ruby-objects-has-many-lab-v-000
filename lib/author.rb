@@ -22,14 +22,11 @@ class Author
     add_post(new_post)
   end
     
-  #   def add_song_by_name(song_name)
-  #   new_song = Song.new(song_name)
-  #   add_song(new_song)
-  # end
+
     
-  def self.post_count 
-    @post_counter
-  end
+  # def self.post_count 
+  #   @post_counter
+  # end
 
 
 end 
