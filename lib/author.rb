@@ -8,7 +8,7 @@ class Author
   def initialize(name)
     @name = name
     @posts = []
-    @post_counter += 1
+    @post_counter =+ 1
   end
   
   
