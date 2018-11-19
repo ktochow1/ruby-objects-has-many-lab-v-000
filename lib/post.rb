@@ -12,7 +12,7 @@ class Post
   end 
   
  def add_post(a_post)
-   
+  #@@all << self.new(title)
     @posts.push(a_post)
     a_post.author = self
     @@post_counter += 1
