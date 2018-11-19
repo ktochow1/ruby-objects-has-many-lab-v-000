@@ -15,7 +15,7 @@ class Song
    
   def initialize(name)
     @name = name
-    @@all << name
+    @@all << self
   end
   
   # def add_song_by_name(song_name)
