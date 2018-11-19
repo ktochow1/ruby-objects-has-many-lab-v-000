@@ -27,6 +27,7 @@ class Post
     # else
     #   nil
     # end
+    author ? author.name : nil
   end
 
 end 
