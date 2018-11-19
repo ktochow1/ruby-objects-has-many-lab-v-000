@@ -27,7 +27,7 @@ class Author
   #   add_song(new_song)
   # end
     
-  def post_count 
+  def self.post_count 
     @@post_counter
   end
 
