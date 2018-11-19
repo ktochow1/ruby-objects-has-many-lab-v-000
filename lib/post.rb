@@ -8,7 +8,7 @@ class Post
   def initialize(title)
     @title = title
     
-    @@all << self.new(title)
+    @@all << self(title)
   end 
   
  def add_post(a_post)
