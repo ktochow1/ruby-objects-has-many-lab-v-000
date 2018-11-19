@@ -11,6 +11,10 @@ class Post
     @@all << self.new(title)
     @@all
   end 
+  
+  def add_post(a_post)
+    
+  end 
 
   def self.all
     @@all
