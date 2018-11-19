@@ -8,6 +8,7 @@ class Post
   def initialize(title)
     @title = title
     @@all = []
+    @@all << Post.new(title)
   end 
   
  def add_post(a_post)
@@ -15,7 +16,7 @@ class Post
     @posts.push(a_post)
     a_post.author = self
     @@post_counter += 1
-    @@all << Post.new(title)
+    # @@all << Post.new(title)
   end
 
   def self.all
