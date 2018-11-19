@@ -12,9 +12,10 @@ class Post
     @@all
   end 
   
- def add_post_by_title(name)
-    new_post = self.new(name)
-    add_post(new_post)
+ def add_post(a_post)
+    @posts.push(a_post)
+    a_post.author = self
+    @@post_counter += 1
   end
 
   def self.all
