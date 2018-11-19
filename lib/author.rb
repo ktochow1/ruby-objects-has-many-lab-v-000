@@ -9,8 +9,7 @@ class Author
     @name = name
     @posts = []
   end
-  
-  
+
   def add_post(a_post)
     @posts.push(a_post)
     a_post.author = self
@@ -21,13 +20,10 @@ class Author
     new_post = Post.new(name)
     add_post(new_post)
   end
-    
 
-    
   def self.post_count 
     @@post_counter
   end
-
 
 end 
 
