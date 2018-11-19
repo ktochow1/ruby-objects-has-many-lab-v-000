@@ -7,7 +7,7 @@ class Post
   
   def initialize(title)
     @title = title
-    @@all = []
+    # @@all = []
     @@all << title
     @@all
   end 
