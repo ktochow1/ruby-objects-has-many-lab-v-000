@@ -29,6 +29,7 @@ class Song
   
   def artist_name
     artist ? artist.name : nil
+  end
 
 end
   
