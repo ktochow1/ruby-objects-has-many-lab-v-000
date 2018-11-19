@@ -9,6 +9,7 @@ class Post
     @title = title
     @@all_posts = []
     @@all_posts << title
+    @@all_posts
   end 
 
   def self.all
