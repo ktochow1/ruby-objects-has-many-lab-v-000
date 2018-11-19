@@ -3,7 +3,7 @@ require 'pry'
 class Author 
   attr_accessor :name, :posts, :title
 
-  @@post_counter = 0
+  @post_counter = 0
   
   def initialize(name)
     @name = name
@@ -28,7 +28,7 @@ class Author
   # end
     
   def self.post_count 
-    @@post_counter
+    @post_counter
     binding.pry
   end
 
