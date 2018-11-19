@@ -1,15 +1,16 @@
+require 'pry'
+
 class Post 
-  
-  @@all = []
+  attr_accessor :author
+  @@all_posts = []
   
   def initialize(title)
     @title = title
-    @@all = []
+    @@all_posts_posts = []
   end 
-  
-  def self.all 
+
+  def self.all
     @@all
   end
-  
 
 end 

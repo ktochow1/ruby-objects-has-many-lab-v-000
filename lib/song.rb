@@ -1,25 +1,27 @@
+require 'pry'
+
 class Song 
   attr_accessor :name, :artist, :genre 
   
-   @@all = []
+   @@all_songs = []
+   
+  # def name=(song_name)
+  #   @song_name = song_name
+  # end
   
+  # def name 
+  #   @song_name
+  # end
+   
   def initialize(name)
-    @name = name 
-    @@all << name
+    @name = name
+    @@all_songs << name
+   
   end
   
   def self.all 
-    @@all
-  end
-  
-  def artist_name
-    if 
-      self.artist.name
-    else
-      nil
-    end
+    @@all_songs
   end
 
 end
-  
   
