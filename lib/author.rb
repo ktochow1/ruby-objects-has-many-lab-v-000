@@ -29,19 +29,6 @@ end
 
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
   # def add_post(a_post)
   #   @posts.push(a_post)
   #   a_post.author = self
