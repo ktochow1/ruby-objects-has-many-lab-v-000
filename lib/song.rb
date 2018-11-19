@@ -24,7 +24,7 @@ class Song
   # end
   
   def self.all 
-    @@all_songs
+    @@all
   end
 
 end
